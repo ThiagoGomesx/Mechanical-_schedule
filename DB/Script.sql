@@ -32,6 +32,3 @@ constraint fk_servico foreign key (idservico) references servico(idServico),
 constraint fk_Funcionario foreign key (idFuncionario) references usuario(idUsuario),
 constraint fk_Cliente foreign key (idCliente) references usuario(idUsuario)
 );
-
-
-
